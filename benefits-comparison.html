@@ -5,20 +5,25 @@
   <title>Project 1</title>
 	<link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Michael&apos;s Professional Resume</a></li>
-        <li><a href="benefits-comparison.html">HSA vs HRA vs FSA - Health Account Comparison Guide</a></li>
-        <li><a href="w4.html">W-4 Form Explained - Simple Guide to Key Sections</a></li>
-      </ul>
-    </nav>
+		<nav id="main-navbar">
+			<div id="navbar-container">
+				<ul>
+					<li><a href="index.html">Michael&apos;s Professional Resume</a></li>
+					<li id="onpage"><a href="benefits-comparison.html">HSA vs HRA vs FSA - Health Account Comparison Guide</a></li>
+					<li><a href="w4.html">W-4 Form Explained - Simple Guide to Key Sections</a></li>
+				</ul>
+			</div>
+		</nav>
   </header>
   <!-- Heading -->
   <div>
-    <h1>HSA vs HRA vs FSA - Differences Explained</h1>
+    <h1 id="benefits-heading">HSA vs HRA vs FSA - Differences Explained</h1>
   </div>
   <main>
 		<!-- Quick Defintions -->
@@ -92,16 +97,16 @@
         </tr>
       </thead>
     </table>
+	 <!-- Helpful Youtube Video -->
+	 	<h2>Check Out This Great Explanation On YouTube!</h2>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/mRXGYwSSFwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
   </main>
-  <div>
-	   <!-- Helpful Youtube Video -->
-    <h2>Check Out This Great Explanation On YouTube!</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mRXGYwSSFwM?si=MdHjn4-57nYreFO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  <div>
+  <footer class="site-footer">
 		<!-- Disclaimer -->
     <h3>Disclaimer:</h3>
     <p><em>This information is for general educational purposes only and should not be considered legal or tax advice. Everyone&rsquo;s financial situation is different&mdash;please consult a qualified tax professional for advice specific to you.</em></p>
-  </div>
+  </footer>
 </body>
 </html>

@@ -5,28 +5,30 @@
   <title>Project 1</title>
 	<link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<nav>
+	<header id="main-header">
+		<div id="header-container" class="container">
+			<div id="header-paragraph"><p>Michael T. Cox | Charlotte, NC | 267-367-1591 | MThomasC&#64;gmail.com </p>
+			</div>
+		</div>
+	</header>
+	<nav id="main-navbar">
+		<div id="navbar-container">
 			<ul>
-				<li><a href="index.html">Michael&apos;s Professional Resume</a></li>
+				<li id="onpage"><a href="index.html">Michael&apos;s Professional Resume</a></li>
 				<li><a href="benefits-comparison.html">HSA vs HRA vs FSA - Health Account Comparison Guide</a></li>
 				<li><a href="w4.html">W-4 Form Explained - Simple Guide to Key Sections</a></li>
 			</ul>
-		</nav>
-	</header>
+		</div>
+	</nav>
 	<main>
-		<!-- My Contact Information -->
-		<section>
-			<h1>Michael T. Cox</h1>
-			<p>Charlotte, NC | 267-367-1591</p>
-			<p>MThomascC&#64;gmail.com</p>
-			<img src="images/resumeimage.jpg" alt="This is a headshot caricature of Michael">
-		</section>
 		<!-- My Professional Experience -->
 		<section>
-			<h2>Professional Experience</h2>
+			<h2 class="container">Professional Experience</h2>
 			<article>
 				<h3>Prudential Financial</h3>
 				<p><em>Manager Strategic Initatives</em></p>
@@ -77,7 +79,7 @@
 		</section>
 		<!-- My Education -->
 		<section>
-			<h2>Education</h2>
+			<h2 class="container">Education</h2>
 			<p>Drexel University - Bachelor of Science in Business Administration - Concentrations in Finance and Accounting</p>
 		</section>
 	</main>

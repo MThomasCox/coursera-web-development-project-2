@@ -5,16 +5,21 @@
   <title>Project 1</title>
 	<link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Michael&apos;s Professional Resume</a></li>
-        <li><a href="benefits-comparison.html">HSA vs HRA vs FSA - Health Account Comparison Guide</a></li>
-        <li><a href="w4.html">W-4 Form Explained - Simple Guide to Key Sections</a></li>
-      </ul>
-    </nav>
+		<nav id="main-navbar">
+			<div id="navbar-container">
+				<ul>
+					<li><a href="index.html">Michael&apos;s Professional Resume</a></li>
+					<li><a href="benefits-comparison.html">HSA vs HRA vs FSA - Health Account Comparison Guide</a></li>
+					<li id="onpage"><a href="w4.html">W-4 Form Explained - Simple Guide to Key Sections</a></li>
+				</ul>
+			</div>
+		</nav>
   </header>
   <main>
     <!-- Engaging Intro -->
@@ -58,11 +63,15 @@
       </ul>
     </section>
     <div>
+			<!-- Quick Tip -->
       <h3>Quick Tip:</h3>
       <p>For most people just starting out, the safest bet is 1 allowance (claiming yourself). As your life changes&mdash;marriage, kids, multiple jobs&mdash;you can always update your W-4.</p>
-      <h3>Disclaimer:</h3>
-      <p><em>This information is for general educational purposes only and should not be considered legal or tax advice. Everyone&rsquo;s financial situation is different&mdash;please consult a qualified tax professional for advice specific to you.</em></p>
     </div>
   </main>
+	<footer class="site-footer">
+		<!-- Disclaimer -->
+		<h3>Disclaimer:</h3>
+		<p><em>This information is for general educational purposes only and should not be considered legal or tax advice. Everyone&rsquo;s financial situation is different&mdash;please consult a qualified tax professional for advice specific to you.</em></p>
+	</footer>
 </body>
 </html>
